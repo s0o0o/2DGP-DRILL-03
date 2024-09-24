@@ -52,7 +52,7 @@ def run_circle():
 
 def run_uptoright():
     print('uptoright')
-    for t in range(0,100,10):
+    for t in range(0,100,5):
         x = t*4
         y = t*6
         draw_boy(x,y)
