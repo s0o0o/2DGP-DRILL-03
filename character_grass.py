@@ -10,7 +10,7 @@ boy = load_image('character.png')
 def draw_boy(x,y):
     clear_canvas_now()
     boy.draw_now(x,y)
-    delay(0.005)  
+    delay(0.01)  
 
 def run_top():
     print('TOP')
@@ -60,6 +60,10 @@ def run_uptoright():
 
 def run_downtoright():
     print('downtoright')
+    for t in range(0,100,5):
+        x = 400 + (t*4)
+        y = 600 - (t*6)
+        draw_boy(x,y)
     pass
 
 def run_triangle():
