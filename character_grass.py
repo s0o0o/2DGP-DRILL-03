@@ -20,12 +20,13 @@ def run_top():
 
 def run_right():
     print('RIGHT')
-    for y in range(550,0,-10):
+    for y in range(550,50,-10):
         draw_boy(780,y)
     
 def run_bottom():
     print('BOTTOM')
-    pass
+    for x in range(780,0,-10):
+        draw_boy(x,50)
 
 def run_left():
     print('LEFT')
